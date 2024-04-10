@@ -27,6 +27,12 @@ const initialData = [
     author: 'J.R.R. Tolkien',
     status: 'to_read',
   },
+  {
+    uuid:uuid4(),
+    title:"Simple Book",
+    author:"Simple author",
+    status:"read"
+  }
 ];
 
 initialData.forEach((book) => {
